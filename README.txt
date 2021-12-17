@@ -3,7 +3,7 @@ app.js file creates route and database objects and imports needed modules.
 www file in bin directory creates http server and listens for queries. 
 db.js file in db directory is a helper file for database connection and credentials file reading.
 schema.js file in models directory defines a schema for countries collection.
-endpoint directory has corresponding files for given endpoints.
+endpoint directory has corresponding files for given endpoints. Optimal endpoint does not return optimal answer but returns maximum amounts and a remainder one. Others are working as intended.
 
 FORMAT FOR CREDENTIALS:
 File name: credentials.txt
