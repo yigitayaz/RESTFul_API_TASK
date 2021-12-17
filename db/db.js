@@ -16,7 +16,6 @@ if(array.length ===5){
     //connection is handled below
     module.exports = () => {
         var connectionString ='mongodb://' + username + ':' + password + '@' + host + ':' + port + '/' + dbname + '?authSource=admin';
-        //const connectionString = "mongodb://mongocandidate:nW5esVv8cLbJRgJa@54.217.142.169:27017/assignmentdb?authSource=admin";
         mongoose.connect(connectionString);
 
         mongoose.connection.on("open", () => {
